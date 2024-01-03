@@ -6,3 +6,6 @@ Cookie-parser is a library that helps you to parse the cookies from the request.
 
 ORM’S=> mongoose
 A schema is a way to define the structure and validations of your data. A model is a way to create and manipulate documents based on the schema. Mongoose is a library that provides an object-relational mapping (ORM) layer between your application and the MongoDB database. An ORM is a technique that allows you to work with data as objects, rather than as raw queries. Mongoose allows you to define schemas and models, and provides methods to perform CRUD (create, read, update, delete) operations on the documents.
+
+salt in crypto
+A salt is a random piece of data that is added to a password or a passphrase before hashing it. This makes the hashed output more unique and harder to crack by attackers. A salt can be any string of characters, such as “D;%yL9TS:5PalS/d” or “)<,-<U (jLezy4j>*”. A salt does not need to be secret, but it should be different for each password.

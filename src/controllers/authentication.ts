@@ -10,12 +10,18 @@ export const register = async (req: express.Request, res: express.Response) => {
         if (!email || !password || !username) {
             return res.status(400);
         }
+         // Check if the email already exists in the database
+        // If yes, return a 400 Bad Request status code to the client
         const existingUser = await getUserByEmail(email);
         if (existingUser) {
              return res.status(400);
         }
         //creating the authenticated user
+         // Generate a random salt for the password
         const salt = random();
+        // Create a new user document and save it to the database
+        // Hash the salt and the password using the authentication function
+         // Return the user document as a plain object, without the authentication fields
         const user = await createUser({
             email,
             username,
