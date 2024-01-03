@@ -1,0 +1,8 @@
+About compression
+Compression is a library that helps you to compress the response data. Compression is a process that reduces the size of the data by removing some redundant or unnecessary bits. Compression can improve the performance of your API, by reducing the bandwidth and the time required to transfer the data. Compression can also save some storage space on the server. Compression uses different algorithms to compress the data, such as gzip, deflate, or brotli. You can use compression as a middleware for your app, and it will automatically compress the response data according to the algorithm that the client supports.
+
+About cookies/cookie parser
+Cookie-parser is a library that helps you to parse the cookies from the request. Cookies are small pieces of data that are stored in the browser and sent to the server with every request. Cookies can be used to store information such as user preferences, session tokens, or shopping cart items. Cookie-parser allows you to access the cookies as an object, and also provides some methods to manipulate them, such as setting, getting, or deleting cookies.
+
+ORM’S=> mongoose
+A schema is a way to define the structure and validations of your data. A model is a way to create and manipulate documents based on the schema. Mongoose is a library that provides an object-relational mapping (ORM) layer between your application and the MongoDB database. An ORM is a technique that allows you to work with data as objects, rather than as raw queries. Mongoose allows you to define schemas and models, and provides methods to perform CRUD (create, read, update, delete) operations on the documents.
